@@ -1,0 +1,22 @@
+/* styleLogin.css */
+body,
+html {
+  height: 100%; /* Define a altura do body e html para 100% */
+  margin: 0; /* Remove margens padrão */
+  
+}
+
+main {
+  display: flex; /* Ativa o Flexbox no main */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Altura total da viewport */
+}
+
+#row {
+  border: 1px solid #ccc; /* Adiciona uma borda para visualização */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 5px; /* Bordas arredondadas */
+  background-color: #fff; /* Cor de fundo */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
